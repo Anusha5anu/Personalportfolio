@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/02afdb61f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header >
+        <nav>
+            <div class="left">Anusha M</div>
+            <div class="right"><ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul></div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="firstSection">
+            <div class="leftSection">Hi,my name is <span class="purple">Anusha M</span>
+                <div>and I am a passinated </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="anu resume.pdf" download>Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/">Visit Github</a></button>
+                </div>
+            </div>
+           
+
+            <div class="rightSection"><img src="anu.jpg" alt=""></div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I done so far</span>
+            <h1>Languages</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img  class="image-top" src="html.png"    alt="">
+                    <div class="vertical-title">
+                           html  
+                    </div>
+                    <div class="vertical-desc">advance html</div>
+                    </div>
+                    <div class="vertical">
+                        <img  class="image-top" src="css.png"    alt="">
+                        <div class="vertical-title">
+                               css
+                        </div>
+                        <div class="vertical-desc">advance css</div>
+                        </div>
+                        <div class="vertical">
+                            <img  class="image-top" src="js.png"    alt="">
+                            <div class="vertical-title">
+                                   Java script
+                            </div>
+                            <div class="vertical-desc"> Basic and advance Java Script </div>
+                            </div>
+                            <div class="vertical">
+                                <img  class="image-top" src="python.png"    alt="">
+                                <div class="vertical-title">
+                                       Python developer
+                                </div>
+                                <div class="vertical-desc">Python fundamentals and Data Science</div>
+                                </div>
+                                <div class="vertical">
+                                    <img  class="image-top" src="python.png"    alt="">
+                                    <div class="vertical-title">
+                                           sql
+                                    </div>
+                                    <div class="vertical-desc">sql fundamentals </div>
+                                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <!---- about section----->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-l">
+                        <img src="anu3.jpg" alt="img">
+                    </div>
+                    <div class="about-r">
+                        <h1 class="text-h1">About Me</h1>
+                        <p>Im <span class="purple">Anusha M </span> Hardworking and enthusiastic College student<br> 
+                    working passionately towards Computer Science . </p>
+                        <div class="tab-titles">
+                            <p class="tab-links  active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education </p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br> Web Site Devoloper </li>
+                                <li><span>Python  Developer</span><br> Python Devoloper </li>
+                                
+                                <li><span>DSA in Python </span> <br>DATA STRUCTURE AND ALGORITHMS </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SSLC</span><br> Sarvodaya English High School  </li>
+                                <li><span>PU</span><br> B G S Pu Collage Kunigal </li>
+                                <li><span>UG </span><br> SSIBM Tumakur (BCA ) </li>
+                            </ul>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--services-->
+        <section class="Services" id="Services">
+            <div class="container">
+                <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>create websites using HTML,CSS,JAVASCRIPT ,php etc ...<br>create responsive web site </p>
+                             <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-android"></i>
+                        <h2>Python developer</h2>
+                        <p>code in python  </p>
+                             <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--projects-->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h1 class="sub-title"> Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="CLOCK.jpg" alt="dev">
+                        <div class="layer">
+                            <h3>CLOCK PROJECT </h3>
+                            <P>
+                                simple clock project useing python
+                            </P>
+                             <a href="https://github.com/SSIBM23/clock-project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="snake.png" alt="dev">
+                        <div class="layer">
+                            <h3>Snake Game</h3>
+                            <P>Snake game is Gameing project ,
+                             <br>the code are writen useing Python 
+
+                            </P>
+                             <a href="https://github.com/student-anusha/snake-game.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="atten.jpg" alt="dev">
+                        <div class="layer">
+                            <h3>Student Attendance Management</h3>
+                            <P>
+                            this is a Student Attendance Management <br>
+                            it take a oneTime attendance 
+                         </P>
+                             <a href="https://github.com/Anusha5anu/student-attendance-/tree/master"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="car.jpg" alt="dev">
+                        <div class="layer">
+                            <h3>carRental </h3>
+                            <P>
+                            Responsive car Rental <br>
+                            webpage useing html,css,js
+                         </P>
+                             <a href="https://github.com/Anusha5anu/car-Rental-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="see">See more</a>
+            </div>
+        </section>
+        <hr>
+        <!--- contact-->
+        <section class="contact " id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>anushagangatkar04@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 8618757844</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first"> Personal Portfolio</div>
+            <div class="footer-second"> <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul></div>
+            <div class="footer-third">&#169 All copyright are available</div>
+            <div class="footer-fouther"></div>
+        </div>
+    </footer>
+    
+      
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Pyothon Developer' ,' Data Science'],
+          typeSpeed: 50,
+        });</script>
+        <script src="script.js"></script>
+</body>
+</html>
